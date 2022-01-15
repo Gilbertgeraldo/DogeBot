@@ -4500,7 +4500,7 @@ buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},typ
                 if (args.length < 1) return reply(`where is the text bro??\nexample ${prefix + command} ${pushname}`)
                 dpuhy = args.join(' ')
                tiyo = `Please choose one`
-sendButMessage(from, tiyo, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, tiyo, `GILBERT BOT`, [
             {              
               buttonId: `writedown ${dpuhy}`,
               buttonText: {
@@ -4527,14 +4527,14 @@ sendButMessage(from, tiyo, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
              const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc = await xeon.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCASTING 」*\n\n${body.slice(4)}`})
+             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 GILBERT BOT BROADCASTING 」*\n\n${body.slice(4)}`})
 }
              reply('Broadcast success')
              } else {
              for (let _ of anu) {
 xeon.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+			"footerText": 'GILBERT BOT',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK TO VIEW MENU"
@@ -4553,7 +4553,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=yuri&apikey=${hardi}`)
 buttons = [{buttonId: `yuri`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'GILBERT BOT', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
