@@ -6466,8 +6466,8 @@ xeon.sendMessage(from, stdout, text, term)
     if (isGroup && budy != undefined) {
     } else {
       console.log(
-        color("[Doge Bot]", "red"),
-        "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+        color("[Gilbert bot]", "red"),
+        "GILBERT BOT",
         color(sender.split("@")[0])
       );
     }
