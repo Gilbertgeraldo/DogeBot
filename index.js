@@ -793,10 +793,10 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            description: "Gilbert",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+            retailerId: "GILBERT BOT",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -965,7 +965,7 @@ sendEphemeral: false,
                 "title": `Whatsapp`,
                 "body": `wa.me/6289656122352`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/6289656122352`,
+                "mediaUrl": `wa.me/6281235136510`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
                 "sourceUrl": `wa.me/6281235136510`,
@@ -1390,7 +1390,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'xeon':
+        case 'Gilbert':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1615,6 +1615,7 @@ ${readmore}
 
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
 Just Learn to Make Bots 🐶
+Bot whatsapp by gilbert:v
  
 𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
@@ -1711,7 +1712,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                 dapuhy = await getBuffer(`https://dapuhy-api.herokuapp.com/api/randomimage/quotesyt?apikey=${dapapi}`)
                 xeon.sendMessage(from, dapuhy, image, {quoted: mek})        
                 break    
-case 'auu': // by xeon
+case 'auu': // by Gilbert
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        reply('No Sis')
         sendButMessage(from, `Hi ${pushname} 🐶`, `What do you want to answer??`, [
@@ -1748,10 +1749,10 @@ case 'awokkk':
 reply('yes no time')
 break
 case 'h':
-reply('he/she is gone bro.. may he/she go to hell too 😏')
+reply('dia sudah pergi bang,semoga dia tenang di alam baka sana. Amin..')
 break
 case 'okeyx':
-reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐')
+reply('HALO MEMBER BARU!!!!.SELAMAT DATANG DI GROUP INI')
 break
 
 case 'isbaileys': 
@@ -2444,7 +2445,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "YAHAHAHA WAHYU,NGEMIS SC LU ANJ", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "YAHAHAHA WAHYU,NGEMIS SC LU", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -6386,7 +6387,7 @@ if (_chats.startsWith('$')){
 if (!isOwner)return// reply(`This command can not be carried out by rent bot temporarily`)
 if (!q)return 
 var itsme = `${sender}`
-var split = `*Xeon Bot Inc.*`
+var split = `*Gilbert bot. *`
 const term = {
 contextInfo: {
 participant: itsme,
