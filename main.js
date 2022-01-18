@@ -64,7 +64,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["GILBERT BOT:)🙂", "Chrome", "3.0"];
+  client.browserDescription = ["GILBERT BOT", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
