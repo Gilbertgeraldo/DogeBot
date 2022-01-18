@@ -139,7 +139,7 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "6289656122352"; 
+targetpc = "6281235136510"; 
 owner = "6281235136510"; 
 fakeyoi = "GILBERT"; 
 HunterApi = "Ikyy69", 
@@ -379,7 +379,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type 8473\n*GILBERT BOT*```'
+       const daftar2 = '```Click the button below to verify bro or type 8473\nGILBERT BOT```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -939,7 +939,7 @@ const reply = (teks) => {
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/6289656122352?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/6281235136510?text=bang`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -968,7 +968,7 @@ sendEphemeral: false,
                 "mediaUrl": `wa.me/6289656122352`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/6289656122352`,
+                "sourceUrl": `wa.me/6281235136510`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1401,8 +1401,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "6289656122352@s.whatsapp.net"
-        dtod = '6289656122352'
+        ptod = "6281235136510@s.whatsapp.net"
+        dtod = '6281235136510'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1622,9 +1622,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '6289656122352'
-   dtod1 = '6289656122352'
-   dtod2 = '6289656122352'
+   dtod = '6281235136510'
+   dtod1 = '6281235136510'
+   dtod2 = '6281235136510'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1675,7 +1675,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('6289656122352@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('6281235136510@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -1772,7 +1772,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*click on the link below*\nwa.me/6289656122352')
+  reply('*click on the link below*\nwa.me/6281235136510')
 break
    
 case 'owner':
@@ -1782,7 +1782,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
                haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'ESCE BANG😁'},type:1},{buttonId:`iggw`,buttonText:{displayText:'PM ON WHATSAPP'},type:1}]
+               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'ESCE BANG😁'},type:1},{buttonId:`iggw`,buttonText:{displayText:'MAU CHAT OWNER'},type:1}]
                buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
                xeon.relayWAMessage(prep)
@@ -2008,7 +2008,7 @@ break
 case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
- buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
+ buttonText: 'TAP AJA MENUNYA BG('-'*)♪',
  footerText: '*GILBERT BOT*',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
@@ -2032,7 +2032,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                               "rowId": ""
                            },
                            {
-                              "title": "Rentbot",
+                              "title": "jadibot",
                               "rowId": ""
                            },
                            {
